@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lobster+Two:ital,wght@0,700;1,400&family=Montserrat:ital,wght@0,400;1,300;1,400;1,500&family=Roboto:ital@1&display=swap');
+
+body{
+    margin: 0rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black
+
+}
+label{
+    margin: 2rem;
+    display: block;
+    color: white
+}
+.container{
+    text-align: center;
+    
+}
+.stock-heading{
+    color: #ca8a04;
+}
+.profit-heading{
+    color: green;
+}
+.and-heading{
+    color: blue;
+}
+.loss-heading{
+    color: red
+}
+#initial-price{
+    padding: 0.5rem;
+}
+#stocks-qty{
+    margin-right: 2.2rem;
+    padding: 0.5rem;
+}
+#current-price{
+    margin-right: 0.7rem;
+    padding: 0.5rem;
+}
+input{
+    width: 20%;
+    border: 1px solid black;
+}
+input:hover{
+    background-color: rgb(48, 50, 51);
+}
+#submit-btn{
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    margin: 1rem;
+    margin-left: 6rem;
+    width: 15%;
+    cursor: pointer;
+}
+#submit-btn:hover{
+    background-color:rgb(48, 50, 51);
+}
+#output-box{
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 7rem;
+}
+
